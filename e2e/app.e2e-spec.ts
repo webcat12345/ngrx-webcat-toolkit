@@ -6,9 +6,4 @@ describe('ngrx-webcat-toolkit App', () => {
   beforeEach(() => {
     page = new NgrxWebcatToolkitPage();
   });
-
-  it('should display message saying app works', () => {
-    page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
-  });
 });
