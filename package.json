@@ -9,6 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "postinstall": "ng build --prod",
     "deploy": "git push https://heroku:d6aa8ef1-d08a-493c-82d9-af759e06adfc@git.heroku.com/w-toolkit.git master:master"
   },
   "private": true,
