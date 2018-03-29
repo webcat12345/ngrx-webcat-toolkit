@@ -4,11 +4,6 @@
 #
 version: 2
 jobs:
-  deployment:
-    staging:
-      branch: master
-      heroku:
-        appname: w-toolkit
   build:
     docker:
       # specify the version you desire here
