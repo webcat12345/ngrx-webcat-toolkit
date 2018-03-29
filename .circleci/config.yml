@@ -36,8 +36,10 @@ jobs:
       # run tests!
       - run: yarn lint
       - run: yarn build
+
   deployment:
-    staging:
-      branch: master
-      heroku:
-        appname: w-toolkit
+      staging:
+        branch: master
+        heroku:
+          appname: w-toolkit
+
