@@ -3,12 +3,12 @@
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
 version: 2
-deployment:
-  staging:
-    branch: master
-    heroku:
-      appname: w-toolkit
 jobs:
+  deployment:
+    staging:
+      branch: master
+      heroku:
+        appname: w-toolkit
   build:
     docker:
       # specify the version you desire here
@@ -40,5 +40,4 @@ jobs:
 
       # run tests!
       - run: yarn lint
-      - run: yarn build
 
